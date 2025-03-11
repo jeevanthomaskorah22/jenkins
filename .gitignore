@@ -1,6 +1,4 @@
-__pycache__/
-*.pyc
-*.pyo
+*.tar
 *.log
+_pycache_/
 venv/
-.env
