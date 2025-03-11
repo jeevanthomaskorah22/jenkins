@@ -38,7 +38,7 @@ pipeline {
             steps {
                 echo 'Uploading Docker image to FTP...'
                 bat '''
-                curl -T hello-python.tar --user ftpuser:victus ftp://127.0.0.1/hello-python.tar
+                curl -T hello-python.tar --user victus:8386 ftp://127.0.0.1/hello-python.tar
                 '''
             }
         }
