@@ -13,7 +13,7 @@ pipeline {
         stage('Git Pull') {
             steps {
                 echo 'Pulling latest code from GitHub...'
-                git branch: 'main', url: 'https://github.com/jeevanthomaskorah22/jenkins.git'
+                git branch: 'main', url: 'https://github.com/jeevanthomaskorah22/dockerfile.git'
             }
         }
 
